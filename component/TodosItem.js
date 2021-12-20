@@ -12,7 +12,7 @@ function TodosItem ({todo, index, editIndex}) {
                 onchange="dispatch('toggle', ${index})"
                 >
                 <label ondblclick="dispatch('edit', ${index})">${todo.tiltle}</label>
-                <button class="destroy
+                <button class="destroy"
                 onclick="dispatch('delete', ${index})"
                 ></button>
             </div>
